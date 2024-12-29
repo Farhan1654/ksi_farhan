@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATMS - Threat Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Automated Threat Management System (ATMS)</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="upload-section">
+                <h2>Upload Your System Diagram</h2>
+                <p>Supported formats: DFD</p>
+                <input type="file" id="diagram-upload">
+                <button class="analyze-btn">Analyze</button>
+            </div>
+
+            <div class="report-section">
+                <h2>Threat Analysis Report</h2>
+                <ul class="report">
+                    <li>
+                        <strong>Spoofing:</strong> High Risk<br>
+                        <em>Mitigation:</em> Implement Multi-Factor Authentication.
+                    </li>
+                    <li>
+                        <strong>Tampering:</strong> Medium Risk<br>
+                        <em>Mitigation:</em> Use Cryptographic Hash Functions.
+                    </li>
+                    <li>
+                        <strong>Information Disclosure:</strong> Low Risk<br>
+                        <em>Mitigation:</em> Encrypt Sensitive Data.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ATMS - Securing Your Future</p>
+    </footer>
+</body>
+</html>
